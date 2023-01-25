@@ -1,0 +1,20 @@
+branch-defaults:
+  default:
+    environment: PROD-TODO-API-SERVICE-WORK
+    group_suffix: null
+deploy:
+  artifact: build/libs/todo-0.0.1-SNAPSHOT.jar
+global:
+  application_name: TodoApplication-backend
+  branch: null
+  default_ec2_keyname: null
+  default_platform: Corretto 11 running on 64bit Amazon Linux 2
+  default_region: ap-northeast-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: null
+  workspace_type: Application
